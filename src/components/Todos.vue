@@ -4,7 +4,7 @@
       type="text"
       v-model="newTodo"
       @keypress.enter="addTodo"
-      placeholder="Add a new todo..."
+      placeholder="Click me to add a new todo..."
     />
     <transition name="switch" mode="out-in">
       <div v-if="todos.length">
